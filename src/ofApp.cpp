@@ -89,7 +89,7 @@ videoFrag.setAnchorPercent(.5, .5);
         
         if(changeFlag) {
             for (int i = 0 ; i<videoFrags.size(); i++) {
-                videoFrags[i].update(object);
+                videoFrags[i].update(object );
             }
             
             changeFlag = false;
